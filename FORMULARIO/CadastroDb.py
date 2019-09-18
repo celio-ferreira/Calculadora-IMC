@@ -10,7 +10,6 @@ conn = pymysql.connect(
 )
 #INSTANCIANDO O MÉTODO CURSOR
 cursor = conn.cursor()
+#para executar comandos: Digitar aqui: cursor.execute("")
 
-#EXECUTANDO OS COMANDOS
-#cursor.execute("CREATE DATABASE if not exists formulário")
-cursor.execute("CREATE TABLE if not exists telefone(Cpf varchar(15) NOT NULL, Tel int(12) not null)")
+print("Conectado ao Banco de dados!")
