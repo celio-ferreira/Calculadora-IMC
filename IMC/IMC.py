@@ -46,7 +46,7 @@ def calcular(event):
     if resp < 17:
         AvaliaLabel = Label(BottomFrame, width=35, height=6, borderwidth=1, relief="solid", bg="#FF7F50")
         AvaliaLabel.place(x=10, y=40)
-        AvaliaLabel["text"] = ("ATENÇÃO!\nPESO MUITO ABAIXO DO NORMAL!")
+        AvaliaLabel["text"] = ("ATENÇÃO!\nPESO MUITO ABAIXO DO NORMAL!!")
     elif resp <= 18.49:
         AvaliaLabel = Label(BottomFrame, width=35, height=6, borderwidth=1, relief="solid", bg="yellow")
         AvaliaLabel.place(x=10, y=40)
